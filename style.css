@@ -7,12 +7,13 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: 6%;
-    background-color: antiquewhite;
+    background-color: #6196A6;
     gap: 10px;
 }
 
 header {
-    border: 0px solid transparent;
+    border: 2px solid black;
+    filter: drop-shadow(1px 1px 3px white);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -26,10 +27,12 @@ header {
     justify-content: center;
     font-family: "Ubuntu", sans-serif;
     font-size: xx-large;
+    -webkit-filter: drop-shadow(1px 1px 3px white);
 }
 
 section {
-    border: 0px solid transparent;
+    border: 2px solid black;
+    filter: drop-shadow(1px 1px 3px white);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -39,13 +42,18 @@ section {
     width: 35vh;
     height: 35vh;
     display: flex;
-    align-items: center;
     justify-content: center;
     font-family: "Ubuntu", sans-serif;
 }
 
+h1 {
+    padding-top: 30px;
+    font-size: xx-large;
+}
+
 footer {
-    border: 0px solid transparent;
+    border: 2px solid black;
+    filter: drop-shadow(1px 1px 3px white);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -58,4 +66,5 @@ footer {
     align-items: center;
     justify-content: center;
     font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
 }
